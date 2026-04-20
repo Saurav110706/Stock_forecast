@@ -1,18 +1,18 @@
-# Stock_forecast# 📈 AAPL Stock Price Forecasting
+# Stock_forecast# AAPL Stock Price Forecasting
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-## 📌 Overview
+## Overview
 A machine learning pipeline that forecasts Apple (AAPL) stock closing prices 
 using Linear Regression and ARIMA models, trained on 5 years of historical 
 data from Yahoo Finance.
 
-## 📊 Results
+## Results
 ![Forecast Chart](AAPL_forecast.png)
 
-## ✨ Features
+## Features
 - Downloads live stock data via yfinance
 - Feature engineering with lag variables and moving averages
 - Compares 3 models: Naive Baseline, Linear Regression, ARIMA
@@ -20,7 +20,7 @@ data from Yahoo Finance.
 - Predicts next day's closing price from latest market data
 - Saves forecast chart as PNG
 
-## 📉 Model Performance (Test Set)
+## Model Performance (Test Set)
 
 | Model             | MAE   | RMSE  | R²     |
 |-------------------|-------|-------|--------|
